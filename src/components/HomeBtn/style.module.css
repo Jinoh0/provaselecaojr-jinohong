@@ -1,0 +1,14 @@
+button {
+  margin-bottom: 20px;
+  background-color: rgba(169, 89, 89, 0.443);
+  border-radius: 15px;
+  padding: 10px;
+  color: white;
+  font-style: bold;
+  font-size: 7px;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  display: flex;
+}

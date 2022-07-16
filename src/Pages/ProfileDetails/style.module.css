@@ -1,0 +1,10 @@
+.details {
+    background-color: grey;
+    height:auto;
+    margin: 0;
+    padding: 30px;
+    padding-bottom: 50%;
+    background-image: url(../../assets/images/backd.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
