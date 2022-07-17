@@ -1,30 +1,65 @@
-.card {
-  border-radius: 40px;
-  padding: 30px;
-  display: flex;
-  flex-direction: row;
-  background: rgba(red, green, blue, 0.1);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  background-color: rgba(190, 190, 190, 0.418);
+@media only screen and (max-width: 690px) {
+  .card {
+    border-radius: 40px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(red, green, blue, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(190, 190, 190, 0.418);
+  }
+
+  .textblock {
+    flex-direction: column;
+    margin-left: 10%;
+    border-bottom: 2px solid black;
+    padding-right: 100px;
+  }
+
+  .addressblock {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    line-height: 0.3;
+    margin-top: 2%;
+  }
+
+  .addresstitle {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
 }
 
-.textblock {
-  flex-direction: column;
-  margin-left: 10%;
-  border-right: 2px solid black;
-  padding-right: 100px;
-}
+@media only screen and (min-width: 691px) {
+  .card {
+    border-radius: 40px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    background: rgba(red, green, blue, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(190, 190, 190, 0.418);
+  }
 
-.addressblock {
-  display: flex;
-  flex-direction: column;
-  margin-left: 10%;
-  line-height: 0.3;
-  margin-top: 2%;
-}
+  .textblock {
+    flex-direction: column;
+    margin-left: 10%;
+    border-right: 2px solid black;
+    padding-right: 100px;
+  }
 
-.addresstitle {
-  margin-bottom: 30px;
-  font-size: 20px;
+  .addressblock {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    line-height: 0.3;
+    margin-top: 2%;
+  }
+
+  .addresstitle {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
 }

@@ -1,10 +1,25 @@
-.details {
+@media only screen and (max-width: 690px) {
+  .details {
     background-color: grey;
-    height:auto;
+    height: auto;
     margin: 0;
     padding: 30px;
     padding-bottom: 50%;
     background-image: url(../../assets/images/backd.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 691px) {
+  .details {
+    background-color: grey;
+    height: auto;
+    margin: 0;
+    padding: 30px;
+    padding-bottom: 50%;
+    background-image: url(../../assets/images/backd.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
